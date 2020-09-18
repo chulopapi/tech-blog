@@ -1,7 +1,6 @@
 {
-  "name": "noggin-bloggin",
+  "name": "tech_blog_db",
   "version": "1.0.0",
-  "description": "![](assets/images/noggin-bloggin.jpg)",
   "main": "server.js",
   "dependencies": {
     "bcrypt": "^5.0.0",
@@ -17,17 +16,14 @@
   "devDependencies": {},
   "scripts": {
     "test": "jest",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jennifermulder/noggin-bloggin.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jennifermulder/noggin-bloggin/issues"
-  },
-  "homepage": "https://github.com/jennifermulder/noggin-bloggin#readme"
+  }
 }
