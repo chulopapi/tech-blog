@@ -4,7 +4,7 @@ VALUES
 
 INSERT INTO post (title, post_text, user_id, created_at, updated_at)
 VALUES 
-  ("test link to", "https://safr.chulopapi.com", 1, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+  ("test link for", "https://safr.chulopapi.com", 1, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
 
 INSERT INTO comment (comment_text, user_id, post_id, created_at, updated_at)
 VALUES 
