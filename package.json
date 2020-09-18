@@ -1,6 +1,7 @@
 {
-  "name": "tech_blog_db",
+  "name": "tech-blog",
   "version": "1.0.0",
+  "description": "",
   "main": "server.js",
   "dependencies": {
     "bcrypt": "^5.0.0",
@@ -20,10 +21,12 @@
   },
   "repository": {
     "type": "git",
+    "url": "git+https://github.com/chulopapi/tech-blog.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-  }
+    "url": "https://github.com/chulopapi/tech-blog/issues"
+  },
+  "homepage": "https://github.com/chulopapi/tech-blog#readme"
 }
