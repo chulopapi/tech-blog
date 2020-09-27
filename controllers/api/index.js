@@ -1,7 +1,7 @@
 //allowing API to be scalable
 const router = require('express').Router();
 //collecting packaged group of API endpoints
-const userRoutes = require('./user-routes.js');
+const userRoutes = require('./user-routes');
 const postRoutes = require('./post-routes');
 const commentRoutes = require('./comment-routes');
 

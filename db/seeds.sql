@@ -1,5 +1,5 @@
-INSERT INTO user (username, email, password)
-VALUES ("Marlon", "marlon@gmail.com", "pass123")
+INSERT INTO user(username, email, password)
+VALUES ("Marlon", "marlon@gmail.com", "pass123");
 
 INSERT INTO post (title, post_text, user_id, created_at, updated_at)
 VALUES 
