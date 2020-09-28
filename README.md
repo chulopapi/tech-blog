@@ -27,9 +27,10 @@
 
 1. <img width="934" alt="Screen Shot 2020-09-27 at 8 02 25 PM" src="https://user-images.githubusercontent.com/14985358/94386398-70410500-00fc-11eb-8750-daa5b686283e.png">
 
-2. <img width="931" alt="Screen Shot 2020-09-27 at 6 03 26 PM" src="https://user-images.githubusercontent.com/14985358/94383265-5f8c9100-00f4-11eb-83f8-f3fc036077f9.png">
+2. <img width="754" alt="Screen Shot 2020-09-27 at 6 00 50 PM" src="https://user-images.githubusercontent.com/14985358/94383271-60bdbe00-00f4-11eb-9cd3-f4a046c0d03e.png">
 
-3. <img width="922" alt="Screen Shot 2020-09-27 at 6 02 50 PM" src="https://user-images.githubusercontent.com/14985358/94383267-60252780-00f4-11eb-8c2f-267b5eb19972.png">
+3. <img width="931" alt="Screen Shot 2020-09-27 at 6 03 26 PM" src="https://user-images.githubusercontent.com/14985358/94383265-5f8c9100-00f4-11eb-83f8-f3fc036077f9.png">
 
-4. <img width="935" alt="Screen Shot 2020-09-27 at 6 02 21 PM" src="https://user-images.githubusercontent.com/14985358/94383270-60bdbe00-00f4-11eb-9cad-80317f3da062.png">
-5. <img width="754" alt="Screen Shot 2020-09-27 at 6 00 50 PM" src="https://user-images.githubusercontent.com/14985358/94383271-60bdbe00-00f4-11eb-9cd3-f4a046c0d03e.png">
+4. <img width="922" alt="Screen Shot 2020-09-27 at 6 02 50 PM" src="https://user-images.githubusercontent.com/14985358/94383267-60252780-00f4-11eb-8c2f-267b5eb19972.png">
+
+5. <img width="935" alt="Screen Shot 2020-09-27 at 6 02 21 PM" src="https://user-images.githubusercontent.com/14985358/94383270-60bdbe00-00f4-11eb-9cad-80317f3da062.png">
