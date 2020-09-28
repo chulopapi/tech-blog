@@ -53,10 +53,10 @@ app.use(routes);
 //.sync mthod is sequalize taking the models and connecting them to associated database tables. IF it doesn't find one it will create one
 //"force: true" will drop and re-create all database tables on startup
 
-// sequelize.sync({ force: false }).then(() => {
-//   app.listen(PORT, () => console.log('DB is listening at http://localhost:3001'));
-// }).catch(err => console.log(err))
+sequelize.sync({ force: false }).then(() => {
+  app.listen(PORT, () => console.log('DB is listening at http://localhost:3001') + PORT);
+}).catch(err => console.log(err))
 
-app.listen(PORT, function () {
-  console.log("App listening on PORT: " + PORT);
-});
+// app.listen(PORT, function () {
+//   console.log("App listening on PORT: " + PORT);
+// });
