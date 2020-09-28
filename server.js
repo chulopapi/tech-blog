@@ -54,7 +54,7 @@ app.use(routes);
 //"force: true" will drop and re-create all database tables on startup
 
 sequelize.sync({ force: false }).then(() => {
-  app.listen(PORT, () => console.log('DB is listening at http://localhost:3001') + PORT);
+  app.listen(PORT, () => console.log('DB is listening at http://localhost:3001'));
 }).catch(err => console.log(err))
 
 // app.listen(PORT, function () {
