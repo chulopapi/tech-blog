@@ -1,6 +1,8 @@
+// Written by Marlon Guandique
+
 const express = require('express');
 const routes = require('./controllers/index.js');
-//importing sequelize connection that is in connection.js
+//sequelize connection that is in connection.js
 const sequelize = require('./config/connection');
 
 //setup handlebars as template engine
@@ -29,7 +31,7 @@ const sess = {
   store: new SequelizeStore({
     db: sequelize,
     checkExpirationInterval: 15 * 60 * 1000, // Cleanup expired sessions
-    expiration: 5 * 60 * 1000 // expires after 5 minutes of inactivity
+    expiration: 5 * 60 * 1000 // expires after 300 seconds of inactivity
   })
 };
 
@@ -44,7 +46,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
-// turn on routes
+// turning on routes
 app.use(routes);
 
 // turn on connection to db and server

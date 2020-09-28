@@ -5,30 +5,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Tech Blog</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
+  <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 </head>
 
 <body>
-  <div class="wrapper">
-    <header>
-      <h1>
-        <a href="/">Home</a>
-        <a href="/dashboard">Dashboard</a>
-        {{#if loggedIn}}
-        <button id="logout" class="btn-no-style">Logout</button>
-        {{else}}
-        <a href="/login">Login</a>
-        {{/if}}
-      </h1>
-      <span>Tech Blog</span>
-    </header>
-    <main>
-      {{{ body }}}
-    </main>
-    <footer>
-      Thanks for visiting!
-    </footer>
+  <header class="">
+
+    <nav class="blue lighten-3">
+
+      <a href="/login">Login</a>
+      <a href="/">Home</a>
+      {{#if loggedIn}}
+      <button id="logout" class="btn-no-style">Logout</button>  
+      {{else}}
+      <a href="/dashboard">Dashboard</a>
+      {{/if}}
+      <a href="/" class="brand-logo  center">Tech Blog</a>
+
+
+    </nav>
+  </header>
+
+  <main>
+    {{{ body }}}
+  </main>
+
+  <footer class="page-footer blue lighten-3 ">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h2 class="orange-text">Tech Blog</h2>
+          <h6 class="grey-text text-lighten-4 left-align">Technology is what keeping the world together, just Tech Blog!
+          </h6>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2020 Copyright - Chulopapi <a class="white-text text-lighten-3" </a>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      </div>
+      {{!-- Thanks for Visting --}}
+  </footer>
+
   </div>
   {{#if loggedIn}}
   <script src="/javascript/logout.js"></script>
