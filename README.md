@@ -15,13 +15,16 @@
 `Clone and enjoy`
 
 # Test
-`No test provided`
+`No test provided, just click on the app to try it out`
 
 ## Check out my work on [chulopapi](https://github.com/chulopapi)
 
 # Contact 
 
 ## Questions? please contact me via email at <marlon.guandique@gmail.com> 
+
+
+## Click on the link [tech-blog] (https://shielded-sea-62973.herokuapp.com)
 
 ## Web Samples
 
