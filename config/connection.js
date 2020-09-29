@@ -2,7 +2,6 @@
 const Sequelize = require('sequelize');
 require('dotenv').config();
 
-
 let sequelize;
 //use JAWSDB first, if not, use local host
 if (process.env.JAWSDB_URL) {
